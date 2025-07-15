@@ -17,7 +17,7 @@ struct Node {
 };
 ```
 
-###Insert at Beginning + Print:
+### Insert at Beginning + Print:
 ```
 void insertAtHead(Node*& head, int val) {
     Node* newNode = new Node();
@@ -35,7 +35,7 @@ void printList(Node* head) {
 }
 ```
 
-###Main Function:
+### Main Function:
 ```
 int main() {
     Node* head = NULL;
@@ -47,12 +47,12 @@ int main() {
 }
 ```
 
-###Output:
+### Output:
 ```
 10 -> 20 -> 30 -> NULL
 ```
 
-###Summary:
+### Summary:
 
 Each node links to the next.
 
